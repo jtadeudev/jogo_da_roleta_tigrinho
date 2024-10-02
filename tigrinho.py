@@ -18,7 +18,7 @@ def jogar_jogo_do_tigrinho(): #função para começar o jogo
     print("Bem-vindo à máquina caça-níquel do Jogo do Tigrinho. Aqui o seu dinheiro pode voltar até X vezes ;)") # nenhuma pessoa foi financeiramente lesada nesse projeto
     while True: #loop infinito
         input("Aperte enter para começar")
-        resultado_roleta = girar_roleta() #a variável local resultado_roleta recebe a invocação da função que gira a roleta e pode ser passada como parâmetro pra todas as funções
+        resultado_roleta = girar_roleta() #a variável local resultado_roleta é declarada recebendo a invocação da função que gira a roleta e pode ser passada como parâmetro pra todas as funções
         printar_resultado_roleta(resultado_roleta) #chamando a função que mostra o resultado na tela
        
         if checar_vitoria(resultado_roleta): #o resultado da roleta é passado como parâmetro pra função checar_vitoria para ver se você ganhou o jogo
